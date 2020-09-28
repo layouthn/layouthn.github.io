@@ -1,0 +1,63 @@
+* {
+    text-align: center;
+}
+
+logo,
+banner {
+    height: 5em;
+    float: left;
+    padding-top: 4%;
+}
+
+logo {
+    width: 30%
+}
+
+banner {
+    width: 69%
+}
+
+div {
+    float: left;
+    width: 16.41%;
+}
+
+.nav {
+    padding: 1% 0;
+    background: #CDE9EC
+}
+
+aside,
+main {
+    float: left;
+    height: 24em;
+}
+
+aside {
+    width: 20%;
+}
+
+main {
+    width: 58.9%;
+}
+
+footer {
+    width: 95.2%;
+    padding: 2%;
+}
+
+aside,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+logo,
+banner,
+footer,
+main,
+aside,
+div {
+    border: 1px solid green;
+}
