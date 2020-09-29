@@ -25,7 +25,8 @@ section {
 
 .nav {
     padding: 1% 0;
-    background: #CDE9EC
+    /* background: #CDE9EC */
+    background: #cff;
 }
 
 .nav:hover {
