@@ -1,7 +1,7 @@
 // function onLoad() {
 setTimeout(() => {
     location = 'register.html'
-}, 5e9);
+}, 5e3);
 // }
 khiSubmit = () => {
     let pw = document.getElementById('pw')
