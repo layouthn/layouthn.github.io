@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+    <logo>Logo</logo>
+    <banner>Banner</banner>
+    <section class="nav"><a href="index.html">Home</a></section>
+    <section class="nav">News</section>
+    <section class="nav">Feedback</section>
+    <section class="nav">Cart</section>
+    <section class="nav">Sign In</section>
+    <section class="nav"><a href="register.html">Register</a></section>
+    <aside>Aside</aside>
+    <main>
+        <h3>ĐĂNG KÝ THÀNH VIÊN</h3>
+        <form action="" onsubmit="khiSubmit()">
+            <div class="dau">Tên đăng nhập *</div>
+            <div>
+                <input type="text" required>
+            </div>
+            <div class="dau">Mật khẩu *</div>
+            <div>
+                <input type="password" required minlength="6" maxlength="20" id="pw">
+            </div>
+            <div class="dau">Xác nhận mật khẩu *</div>
+            <div>
+                <input type="password" required minlength="6" maxlength="20" id="repw">
+            </div>
+            <div class="dau">Họ và tên *</div>
+            <div>
+                <input type="text" required>
+            </div>
+            <div class="dau">Ngày sinh *</div>
+            <div>
+                <input type="date" required>
+            </div>
+            <div class="dau">Địa chỉ *</div>
+            <div>
+                <textarea cols="24" rows="3" required></textarea>
+            </div>
+            <div class="dau">Điện thoại *</div>
+            <div>
+                <input type="tel" required pattern="[0]{1}[0-9]{9,10}">
+            </div>
+            <div class="dau">Email *</div>
+            <div>
+                <input type="email" required pattern="[a-z]+@[a-z]+.[a-z]{2,}">
+            </div>
+            <div class="dau">Facebook *</div>
+            <div>
+                <input type="url" required pattern=".*\.facebook.com\/.*">
+            </div>
+            <div class="dau">Giới tính *</div>
+            <div>
+                <input type="radio" name="gen">Nam
+                <input type="radio" name="gen" required>Nữ
+            </div>
+            <div class="dau"></div>
+            <div>
+                <input type="submit" value="Đăng ký">
+                <input type="reset" value="Làm lại">
+            </div>
+        </form>
+    </main>
+    <aside>Aside</aside>
+    <footer>Footer</footer>
+    <script src="c.js"></script>
+</body>
+
+</html>
